@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Theme1</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#FFFFFF</string>
+		<key>textColor</key>
+		<string>#505050</string>
+		<key>textFont</key>
+		<string>Copperplate</string>
+		<key>textSize</key>
+		<string>18</string>
+	</dict>
+	<key>Theme2</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#CCFFFF</string>
+		<key>textColor</key>
+		<string>#663300</string>
+		<key>textFont</key>
+		<string>Apple SD Gothic Neo</string>
+		<key>textSize</key>
+		<string>18</string>
+	</dict>
+	<key>Theme3</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#FFFFCC</string>
+		<key>textColor</key>
+		<string>#333333</string>
+		<key>textFont</key>
+		<string>Zapfino</string>
+		<key>textSize</key>
+		<string>11</string>
+	</dict>
+</dict>
+</plist>
