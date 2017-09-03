@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		80A6A2171F5C5D930002D619 /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A6A2141F5C5D930002D619 /* UIHelper.m */; };
+		80A6A2181F5C5D930002D619 /* UIView+TTAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A6A2161F5C5D930002D619 /* UIView+TTAdd.m */; };
 		80E1BBB41F4BC638004F2B83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E1BBB31F4BC638004F2B83 /* main.m */; };
 		80E1BBB71F4BC638004F2B83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E1BBB61F4BC638004F2B83 /* AppDelegate.m */; };
 		80E1BBBA1F4BC638004F2B83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E1BBB91F4BC638004F2B83 /* ViewController.m */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		80A6A2131F5C5D930002D619 /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		80A6A2141F5C5D930002D619 /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		80A6A2151F5C5D930002D619 /* UIView+TTAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TTAdd.h"; sourceTree = "<group>"; };
+		80A6A2161F5C5D930002D619 /* UIView+TTAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TTAdd.m"; sourceTree = "<group>"; };
 		80E1BBAF1F4BC638004F2B83 /* TTThemeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTThemeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80E1BBB31F4BC638004F2B83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		80E1BBB51F4BC638004F2B83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -95,6 +101,10 @@
 				80E1BBD21F4C12C7004F2B83 /* UIView+TTTheme.m */,
 				80E1BBCC1F4BC79F004F2B83 /* TTThemeManager.h */,
 				80E1BBCD1F4BC79F004F2B83 /* TTThemeManager.m */,
+				80A6A2131F5C5D930002D619 /* UIHelper.h */,
+				80A6A2141F5C5D930002D619 /* UIHelper.m */,
+				80A6A2151F5C5D930002D619 /* UIView+TTAdd.h */,
+				80A6A2161F5C5D930002D619 /* UIView+TTAdd.m */,
 				80E1BBCF1F4BD2B3004F2B83 /* Theme.plist */,
 			);
 			path = ThemeManager;
@@ -172,11 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80A6A2181F5C5D930002D619 /* UIView+TTAdd.m in Sources */,
 				80E1BBBA1F4BC638004F2B83 /* ViewController.m in Sources */,
 				80E1BBD31F4C12C7004F2B83 /* UIView+TTTheme.m in Sources */,
 				80E1BBCE1F4BC79F004F2B83 /* TTThemeManager.m in Sources */,
 				80E1BBB71F4BC638004F2B83 /* AppDelegate.m in Sources */,
 				80E1BBB41F4BC638004F2B83 /* main.m in Sources */,
+				80A6A2171F5C5D930002D619 /* UIHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +345,7 @@
 				80E1BBC81F4BC638004F2B83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
